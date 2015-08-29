@@ -15,12 +15,12 @@
  * @return {number}
  */
 var removeElement = function(nums, val) {
-    var i = nums.length;
-    while (i--) {
-        if (nums[i] === val)  nums.splice(i, 1);
-    }
+  var i = nums.length;
+  while (i--) {
+    if (nums[i] === val)  nums.splice(i, 1);
+  }
     
-    return nums.length;
+  return nums.length;
 };
  
  
